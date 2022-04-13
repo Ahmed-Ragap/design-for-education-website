@@ -1,0 +1,68 @@
+$(document).ready(function(){ 
+  $('#carousel-1').owlCarousel({
+    loop:true,
+    margin:10,
+    item:3,
+    dots:true,
+    dotsContainer:true,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
+// start carousel-3
+});
+$(document).ready(function(){ 
+    $('#carousel-3').owlCarousel({
+        loop:true,
+        margin:10,
+        item:2,
+        dots:true,
+        dotsContainer:true,
+        nav:true,
+         responsive:{
+             0:{
+                 items:1
+             },
+             600:{
+                 items:1
+             },
+             1000:{
+                 items:2
+             }
+         }
+    });
+});
+//start carousel-2 
+$(document).ready(function(){ 
+    $('#carousel-2').owlCarousel({
+        loop:true,
+        margin:10,
+        item:1,
+        dots:true,
+        dotsContainer:true,
+        nav:true,
+         responsive:{
+             0:{
+                 items:1
+             },
+             600:{
+                 items:1
+             },
+             1000:{
+                 items:1
+             }
+         }
+    });
+});
+
+
